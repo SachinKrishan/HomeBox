@@ -1,0 +1,27 @@
+name: Prototype task
+description: A small, testable unit of prototype work
+title: "[Task]: "
+labels: ["prototype"]
+body:
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Outcome
+      description: What will be true when this is complete?
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: Use a short checklist of observable results.
+      placeholder: |
+        - [ ] Result can be reproduced
+        - [ ] Verification is documented
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes and constraints
+      description: Dependencies, risks, or decisions relevant to this task.
