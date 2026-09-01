@@ -1,0 +1,9 @@
+.DS_Store
+.env
+*.key
+*.pem
+*.log
+secrets/
+backups/
+ansible/inventory/hosts.yml
+compose/**/data/
